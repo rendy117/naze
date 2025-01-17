@@ -293,7 +293,7 @@ jumlahharian = `${dataa.value}`
         if (db.data.chats[m.chat].antilink) {
         if (budy.match(`chat.whatsapp.com`)) {
         m.reply(`「 *ANTI LINK* 」\n\n*Kamu terdeteksi mengirim link group*, *maaf kamu akan di kick‼️,yang mau juga silahkan kirim link‼️*`)
-        if (!isBotAdmins) return m.reply(`*Bot aja bukan admin anj*`)
+        if (!isBotAdmins) return m.reply(`*Bot bukan admin*`)
         let gclink = (`https://chat.whatsapp.com/`+await naze.groupInviteCode(m.chat))
         let isLinkThisGc = new RegExp(gclink, 'i')
         let isgclink = isLinkThisGc.test(m.text)
@@ -3650,8 +3650,8 @@ let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu'
             break
             case 'sponsor': {
             if (!m.isGroup) throw mess.group
-            let qontak = `6285718971848@s.whatsapp.net`
-let dana = `6281911500445@s.whatsapp.net`
+            let qontak = `6289531048225@s.whatsapp.net`
+let dana = `6289531048225@s.whatsapp.net`
 let shopeeotp = `6285574670796@s.whatsapp.net`
 let shopee = `622150996855@s.whatsapp.net`
 let tokopedia = `6281197911081@s.whatsapp.net`
@@ -3663,7 +3663,7 @@ let kominfo = `628119224545@s.whatsapp.net`
 let alfamart = `628111500959@s.whatsapp.net`
             let ownernya = ownernomer + '@s.whatsapp.net'
             let me = m.sender
-            let jawab = `*Bot by Naze Dev* 
+            let jawab = `*Bot by Renzz* 
 -Creator :  @${ownernya.split('@')[0]}\n-Lu : @${me.split('@')[0]}\n-Powered  : @${ini_mark.split('@')[0]}\n- :  @${qontak.split('@')[0]}\n- :  @${dana.split('@')[0]}\n- :  @${shopeeotp.split('@')[0]}\n- :  @${shopee.split('@')[0]}\n- :  @${tokopedia.split('@')[0]}\n- :  @${smartfrend.split('@')[0]}\n- :  @${getcontact.split('@')[0]}\n- :  @${facebook.split('@')[0]}\n- :  @${pasarpolis.split('@')[0]}\n- :  @${getcontact.split('@')[0]}\n- :  @${kominfo.split('@')[0]}\n- :  @${alfamart.split('@')[0]}`
             let ments = [ownernya, me, ini_mark, qontak, dana, shopeeotp, shopee, tokopedia, smartfrend, getcontact, facebook, pasarpolis, kominfo, alfamart]
             let buttons = [
